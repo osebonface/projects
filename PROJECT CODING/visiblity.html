@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        //taggle visibilty of greatings.
+        function blink(){
+            let body = document.querySelector('body');
+            if(body.style.visibility == 'hidden')
+            {
+              body.style.visibility = 'visible';
+            }
+            else
+            {
+              body.style.visibility = 'hidden';
+            }
+        }
+        // blink every 1500ms
+        window.setInterval(blink,1500);
+    </script>
+    <title>blink</title>
+</head>
+<body style="background-color: aqua;">
+    <h1 style="color: rgb(233, 18, 122);">Hello,Bonface</h1> 
+</body>
+</html>
